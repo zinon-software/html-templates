@@ -1,0 +1,43 @@
+h1 , h2 , h3 , h4 , h5 , h6 , p{font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";}
+.contener{width: 800px; margin:auto;}
+.clear{clear: both;}
+/* header */
+.header{height: 450px; background: url("../photoe/Coding-Becomes-Criminal.jpg"); text-align: center; padding: 10px;}
+.header h1{color: #000000; font-size: 100px;margin-top: 120px;}
+.header button{width: 200px;height: 40px; background: none; color: #fff;border-radius: 10px;}
+.header button:hover{background: #C7FC05; transition: 1s;}
+
+
+/* menu */
+.menu{height: 40px;background: #000; padding-top: 10px;}
+.menu .contener h2{color: #ddd; float: left; position: relative; bottom: 35px;}
+.menu .contener ul{list-style: none;}
+.menu .contener ul li{float: right; color: #08F046; position: relative; bottom: 10px; margin-left: 30px;}
+.menu .contener ul li:hover{color: #ddd; border-left: solid 1px #fff; border-right: solid 1px #fff; margin-left: 30px;}
+.menu .contener h2:hover{color: #FB63F5;}
+
+/* courses */
+.courses{padding-top: 30px;}
+.courses .contener .box1{float: left; width: 40%;}
+.courses .contener .m{float: right; width: 35%;}
+.courses .contener .box2{padding-top: 30px;}
+.courses .contener .box2 .b1{float: left; width: 25%;text-align: center;}
+.courses .contener .box2 .b1 img{width: 100%}
+
+/* path */
+.path{margin-top: 80px;}
+.path .contener h1{text-align: center;}
+.path .contener .b2{float: left; width: 33.3333%; text-align: center;}
+.path .contener .b2 img{width: 60%;}
+
+/* footer */
+.footer{background: #000; height: 400px;color: aliceblue; padding-top: 50px;}
+.footer .contener .part1{float: left; width: 40%;}
+.footer .contener form{float: right;}
+.footer .contener form input , .footer .contener form textarea, .footer .contener form button{margin: 15px;}
+.footer form textarea{width: 200px; height: 130px;}
+.footer button{width: 200px;height: 40px; background: none; color: #fff;border-radius: 10px;}
+.footer button:hover{background: #C7FC05; transition: 1s;}
+
+
+.end{background: #000; padding-bottom: 50px;}
